@@ -1,3 +1,20 @@
 {
+  "labels": [
+    {
+      "label": ":raising_hand_woman: Feature", // Label to be used
+      "globs": [ // Globs to match in the issue body
+        "*# Feature*",
+        "request"
+      ]
+    },
+    {
+      "label": ":bug: Bug",
+      "globs": [
+        "*# Bug*"
+      ],
+      "comment": "Thank you for creating a bug report, if you haven't already please ensure you have provided context on the bug and a minimal repo where we can reproduce the issue."
+    }
+  ],
+  "comment": "Thank you for issue, please ensure no duplicate issues already exist and have a look at our docs site if you haven't already.",
   "no_label_comment": "Thank you for creating an issue, we will follow up the issue soon!"
 }
