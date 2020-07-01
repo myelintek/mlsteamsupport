@@ -1,8 +1,8 @@
 {
   "labels": [
     {
-      "label": ":raising_hand_woman: Feature", // Label to be used
-      "globs": [ // Globs to match in the issue body
+      "label": ":raising_hand_woman: Feature",
+      "globs": [
         "*# Feature*",
         "request"
       ]
